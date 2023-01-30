@@ -1,9 +1,27 @@
 import React from 'react'
+import CTA from './CTA'
+import HeaderSocials from './HeaderSocials'
 import './header.css'
+import ME from '../../assets/me.png'
 
 const Header = () => {
   return (
-    <div>Fucking Header Bitches!</div>
+    <header>
+      <div className="container header__container">
+       <h5>Hello! I'm</h5>
+       <h1>Dan Payne</h1>
+       <h5 className="text-light">iOS Engineer & Fullstack Developer</h5>
+        <CTA />
+        <HeaderSocials />
+        <div className="me">
+          <img src={ME} alt="me"/>
+        </div>
+
+
+
+        <a href="#contact" className="scroll__down">Scroll Down</a>
+      </div>
+    </header>
   )
 }
 
