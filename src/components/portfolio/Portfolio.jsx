@@ -31,7 +31,7 @@ const Portfolio = () => {
           <h3>Millie Plane - iPad</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/MilliePlane" className='btn' target="_blank">Github</a>
-          <a href="https://testflight.apple.com/join/6iP84rAD" className='btn btn-primary' target="_blank">Play on TestFlight</a>
+          <a href="https://testflight.apple.com/join/6iP84rAD" className='btn btn-primary' target="_blank">Apple TestFlight</a>
           </div>
         </article>
 
@@ -39,10 +39,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>Pickleball Scorekeeper - WatchOS</h3>
+          <h3>PB Scorekeeper - WatchOS</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com" className='btn'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target="_blank">Live Demo</a>
+          <a href="https://testflight.apple.com/join/zRfRWLCI" className='btn btn-primary' target="_blank">Apple TestFlight</a>
           </div>
         </article>
 
