@@ -38,10 +38,15 @@ const About = () => {
             </article>
           </div>
 
-          <p>loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw
-          loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw
-          loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw
-          loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw loefaefefw
+          <p>I’ve been independently studying iOS programming over
+            the past 2 years, and recently attended a full stack
+            web development boot camp. I’ve not only learned the
+            technical coding side, but also Agile methodologies of
+            software development. I’m eager to learn more and
+            fully intend to enter the software developer field as a
+            junior developer. Along with that, I have an extensive
+            professional background over various industries that
+            have each somehow utilized my passion for technology.
 
           </p>
           <a href="#contact" className="btn btn-primary">Let's Chat</a>
