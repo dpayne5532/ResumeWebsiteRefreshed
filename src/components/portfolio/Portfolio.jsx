@@ -28,11 +28,21 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
           <img src={MP} alt="" />
           </div>
-
           <h3>Millie Plane - iPad</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/MilliePlane" className='btn' target="_blank">Github</a>
-          <a href="https://testflight.apple.com/join/6iP84rAD" className='btn btn-primary' target="_blank">TestFlight Link</a>
+          <a href="https://testflight.apple.com/join/6iP84rAD" className='btn btn-primary' target="_blank">Play on TestFlight</a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>Pickleball Scorekeeper - WatchOS</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com" className='btn'>Github</a>
+          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target="_blank">Live Demo</a>
           </div>
         </article>
 
@@ -40,7 +50,6 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
             </div>
-
           <h3>Hobos in Moab</h3>
           <div className="portfolio__item-cta">
           <a href="https://youtu.be/nkdSQmNA2zY" className='btn btn-primary' target="_blank">Watch on YouTube</a>
@@ -51,28 +60,17 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>
-
           <h3>Aerial Drone Footage</h3>
           <div className="portfolio__item-cta"></div>
           <a href="https://youtu.be/7zK9JqE4oFo" className='btn btn-primary' target="_blank">Watch on YouTube</a>
         </article>
 
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG5} alt="" />
-          </div>
 
-          <h3>Portfolio Fill 5</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target="_blank">Live Demo</a>
-          </div>
-        </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image"><img src={IMG6} alt="" /></div>
 
-          <h3>Portfolio Fill 6</h3>
+          <h3>Portfoloio Fill 6</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com" className='btn'>Github</a>
           <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target="_blank">Live Demo</a>
