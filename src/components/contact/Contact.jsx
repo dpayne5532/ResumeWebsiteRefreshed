@@ -17,6 +17,7 @@ const Contact = () => {
           console.log(error.text);
       });
       e.target.reset();
+      alert('Your Message Has Been Sent!')
   };
   return (
     <section id="contact">
