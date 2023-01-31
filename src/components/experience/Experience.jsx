@@ -115,7 +115,7 @@ const Experience = () => {
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Testflight</h4>
+              <h4>TestFlight</h4>
             </div>
             </article>
 
@@ -123,7 +123,7 @@ const Experience = () => {
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Swift</h4>
+              <h4>Apple App Store</h4>
             </div>
             </article>
           </div>
@@ -161,6 +161,20 @@ const Experience = () => {
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
               <h4>Adobe Audition</h4>
+            </div>
+            </article>
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>UAV Pilot</h4>
+            </div>
+            </article>
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Photographer</h4>
             </div>
             </article>
 
