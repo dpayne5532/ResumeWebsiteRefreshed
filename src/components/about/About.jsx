@@ -28,13 +28,13 @@ const About = () => {
             <article className="about__card">
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
-              <small>Just a Buttload</small>
+              <small>So many clients</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>A fuckin shitload</small>
+              <small>Just enough room for your project</small>
             </article>
           </div>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import IMG1 from '../../assets/portfolio1.png'
-import MP from '../../assets/milliePlane.jpeg'
+import MP from '../../assets/milliePlane.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
@@ -20,7 +20,7 @@ const Portfolio = () => {
           <h3>Escrow App - iPad</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com" className='btn'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target="_blank">Live Demo</a>
+          <a href="https://youtu.be/cqBv5AoRzj8" className='btn btn-primary' target="_blank">Watch a Demo</a>
           </div>
         </article>
 
