@@ -1,4 +1,5 @@
 Personal Website Reboot!
 
+https://DanPayne.info
 
-https://DanPayne.info is getting a ReactJS Reboot!
+is getting a ReactJS Reboot!
