@@ -4,7 +4,7 @@ import MP from '../../assets/milliePlane.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/portfolio7.png'
 import './portfolio.css'
 
 const Portfolio = () => {
@@ -47,6 +47,18 @@ const Portfolio = () => {
         </article>
 
         <article className="portfolio__item">
+          <div className="portfolio__item-image"><img src={IMG6} alt="" /></div>
+
+          <h3>Card Workout</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com" className='btn'>Github</a>
+          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target="_blank">Apple TestFlight</a>
+          </div>
+        </article>
+
+
+
+        <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
             </div>
@@ -67,15 +79,7 @@ const Portfolio = () => {
 
 
 
-        <article className="portfolio__item">
-          <div className="portfolio__item-image"><img src={IMG6} alt="" /></div>
 
-          <h3>Portfoloio Fill</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target="_blank">Live Demo</a>
-          </div>
-        </article>
 
       </div>
     </section>

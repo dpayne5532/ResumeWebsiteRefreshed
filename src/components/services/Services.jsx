@@ -11,21 +11,25 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>iOS Apps</h3>
+            <h3>Swift Platforms</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Utility Apps</p>
+              <p>iOS</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Networking Apps</p>
+              <p>iPadOS</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>2D Games</p>
+              <p>watchOS</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>macOS</p>
             </li>
 
           </ul>
