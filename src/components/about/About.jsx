@@ -3,7 +3,7 @@ import {FaAward} from 'react-icons/fa'
 import {RiMacbookLine} from 'react-icons/ri'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import './about.css'
-import ME from '../../assets/me-about.png'
+import ME from '../../assets/me-about2.png'
 
 const About = () => {
   return (
