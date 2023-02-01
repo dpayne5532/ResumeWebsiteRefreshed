@@ -19,7 +19,7 @@ const Portfolio = () => {
 
           <h3>Escrow App - iPad</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn'>Github</a>
+          <a href="https://github.com/dpayne5532/EscrowApp" className='btn'>Github</a>
           <a href="https://youtu.be/cqBv5AoRzj8" className='btn btn-primary' target="_blank">Watch a Demo</a>
           </div>
         </article>
@@ -41,7 +41,7 @@ const Portfolio = () => {
           </div>
           <h3>PB Scorekeeper - WatchOS</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn'>Github</a>
+          <a href="https://github.com/dpayne5532/PBWatchApp" className='btn'>Github</a>
           <a href="https://testflight.apple.com/join/zRfRWLCI" className='btn btn-primary' target="_blank">Apple TestFlight</a>
           </div>
         </article>
@@ -51,7 +51,7 @@ const Portfolio = () => {
 
           <h3>Card Workout</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn'>Github</a>
+          <a href="https://github.com/dpayne5532/CardWorkout" className='btn'>Github</a>
           <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target="_blank">Apple TestFlight</a>
           </div>
         </article>
@@ -74,7 +74,7 @@ const Portfolio = () => {
           </div>
           <h3>Aerial Drone Footage</h3>
           <div className="portfolio__item-cta"></div>
-          <a href="https://youtu.be/7zK9JqE4oFo" className='btn btn-primary' target="_blank">Watch on YouTube</a>
+          <a href="https://youtu.be/czxMf96rju8" className='btn btn-primary' target="_blank">Watch on YouTube</a>
         </article>
 
 
