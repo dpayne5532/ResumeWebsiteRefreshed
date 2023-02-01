@@ -52,7 +52,7 @@ const Portfolio = () => {
           <h3>Card Workout</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/CardWorkout" className='btn'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target="_blank">Apple TestFlight</a>
+          <a href="https://testflight.apple.com/join/BPvQpSk9" className='btn btn-primary' target="_blank">Apple TestFlight</a>
           </div>
         </article>
 
