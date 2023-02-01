@@ -5,6 +5,7 @@ import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio7.png'
+import AppIcon1 from '../../assets/milliePlaneIcon.png'
 import './portfolio.css'
 
 const Portfolio = () => {
@@ -21,6 +22,7 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/EscrowApp" className='btn'>Github</a>
           <a href="https://youtu.be/cqBv5AoRzj8" className='btn btn-primary' target="_blank">Watch a Demo</a>
+
           </div>
         </article>
 
