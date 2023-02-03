@@ -18,7 +18,7 @@ const Portfolio = () => {
             <img src={IMG1} alt="" />
             </div>
 
-          <h3>Escrow App - iPad</h3>
+          <h3>Escrow App - iPadOS</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/EscrowApp" className='btn'>Github</a>
           <a href="https://youtu.be/cqBv5AoRzj8" className='btn btn-primary' target="_blank">Watch a Demo</a>
@@ -26,16 +26,7 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-          <img src={MP} alt="" />
-          </div>
-          <h3>Millie Plane - iPad</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/MilliePlane" className='btn' target="_blank">Github</a>
-          <a href="https://testflight.apple.com/join/6iP84rAD" className='btn btn-primary' target="_blank">Apple TestFlight</a>
-          </div>
-        </article>
+
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -51,22 +42,21 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image"><img src={IMG6} alt="" /></div>
 
-          <h3>Card Workout</h3>
+          <h3>Card Workout - iOS</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/CardWorkout" className='btn'>Github</a>
           <a href="https://testflight.apple.com/join/BPvQpSk9" className='btn btn-primary' target="_blank">Apple TestFlight</a>
           </div>
         </article>
 
-
-
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
-            </div>
-          <h3>Hobos in Moab</h3>
+          <img src={MP} alt="" />
+          </div>
+          <h3>Millie Plane - iPadOS</h3>
           <div className="portfolio__item-cta">
-          <a href="https://youtu.be/nkdSQmNA2zY" className='btn btn-primary' target="_blank">Watch on YouTube</a>
+          <a href="https://github.com/dpayne5532/MilliePlane" className='btn' target="_blank">Github</a>
+          <a href="https://testflight.apple.com/join/6iP84rAD" className='btn btn-primary' target="_blank">Apple TestFlight</a>
           </div>
         </article>
 
@@ -78,6 +68,18 @@ const Portfolio = () => {
           <div className="portfolio__item-cta"></div>
           <a href="https://youtu.be/czxMf96rju8" className='btn btn-primary' target="_blank">Watch on YouTube</a>
         </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG3} alt="" />
+            </div>
+          <h3>Hobos in Moab</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://youtu.be/nkdSQmNA2zY" className='btn btn-primary' target="_blank">Watch on YouTube</a>
+          </div>
+        </article>
+
+
 
 
 
