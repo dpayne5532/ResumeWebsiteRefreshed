@@ -20,7 +20,7 @@ const Portfolio = () => {
 
           <h3>Escrow App - iPadOS</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/EscrowApp" className='btn'>Github</a>
+          <a href="https://github.com/dpayne5532/EscrowApp" className='btn' target="_blank">Github</a>
           <a href="https://youtu.be/cqBv5AoRzj8" className='btn btn-primary' target="_blank">Watch a Demo</a>
 
           </div>
@@ -32,9 +32,9 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>PB Scorekeeper - WatchOS</h3>
+          <h3>PB Scorekeeper - watchOS</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/PBWatchApp" className='btn'>Github</a>
+          <a href="https://github.com/dpayne5532/PBWatchApp" className='btn' target="_blank">Github</a>
           <a href="https://testflight.apple.com/join/zRfRWLCI" className='btn btn-primary' target="_blank">Apple TestFlight</a>
           </div>
         </article>
@@ -44,7 +44,7 @@ const Portfolio = () => {
 
           <h3>Card Workout - iOS</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/CardWorkout" className='btn'>Github</a>
+          <a href="https://github.com/dpayne5532/CardWorkout" className='btn' target="_blank">Github</a>
           <a href="https://testflight.apple.com/join/BPvQpSk9" className='btn btn-primary' target="_blank">Apple TestFlight</a>
           </div>
         </article>
