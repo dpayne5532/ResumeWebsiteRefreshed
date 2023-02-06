@@ -8,7 +8,6 @@ import ME from '../../assets/me-about2.png'
 const About = () => {
   return (
     <section id="about">
-      <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -49,7 +48,7 @@ const About = () => {
             have each somehow utilized my passion for technology.
 
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Chat</a>
+          <a href="#contact" className="btn btn-primary">Send me a Message</a>
 
 
 

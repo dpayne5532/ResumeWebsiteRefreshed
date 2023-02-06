@@ -12,9 +12,7 @@ const Header = () => {
        <h3 className="text-light">iOS Engineer & Fullstack Developer</h3>
         <CTA />
         <HeaderSocials />
-        <div className="me">
-          <img src={ME} alt="me"/>
-        </div>
+
 
 
 
