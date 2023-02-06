@@ -21,7 +21,7 @@ const Portfolio = () => {
           <h3>Escrow App - iPadOS</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/EscrowApp" className='btn' target="_blank">Github</a>
-          <a href="https://youtu.be/cqBv5AoRzj8" className='btn btn-primary' target="_blank">Watch a Demo</a>
+          <a href="https://youtu.be/nRXrnIBvTMo" className='btn btn-primary' target="_blank">Watch a Demo</a>
 
           </div>
         </article>
