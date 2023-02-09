@@ -1,7 +1,7 @@
 import React from 'react'
 import IMG1 from '../../assets/portfolio1.png'
 import MP from '../../assets/milliePlane.png'
-import IMG3 from '../../assets/portfolio3.png'
+import IMG3 from '../../assets/portfolioscc.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio7.png'
@@ -20,9 +20,20 @@ const Portfolio = () => {
 
           <h3>Escrow App - iPadOS</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/EscrowApp" className='btn' target="_blank">Github</a>
-          <a href="https://youtu.be/nRXrnIBvTMo" className='btn btn-primary' target="_blank">Watch a Demo</a>
+          <a href="https://github.com/dpayne5532/EscrowApp" className='btn' target="_blank">GitHub</a>
+          <a href="https://youtu.be/x8RoHYyOsIk" className='btn btn-primary' target="_blank">Watch a Demo</a>
 
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+          <img src={MP} alt="" />
+          </div>
+          <h3>Millie Plane - iPadOS</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/dpayne5532/MilliePlane" className='btn' target="_blank">GitHub</a>
+          <a href="https://testflight.apple.com/join/6iP84rAD" className='btn btn-primary' target="_blank">Apple TestFlight</a>
           </div>
         </article>
 
@@ -34,29 +45,31 @@ const Portfolio = () => {
           </div>
           <h3>PB Scorekeeper - watchOS</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/PBWatchApp" className='btn' target="_blank">Github</a>
+          <a href="https://github.com/dpayne5532/PBWatchApp" className='btn' target="_blank">GitHub</a>
           <a href="https://testflight.apple.com/join/zRfRWLCI" className='btn btn-primary' target="_blank">Apple TestFlight</a>
           </div>
         </article>
+
+
 
         <article className="portfolio__item">
           <div className="portfolio__item-image"><img src={IMG6} alt="" /></div>
 
           <h3>Card Workout - iOS</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/CardWorkout" className='btn' target="_blank">Github</a>
+          <a href="https://github.com/dpayne5532/CardWorkout" className='btn' target="_blank">GitHub</a>
           <a href="https://testflight.apple.com/join/BPvQpSk9" className='btn btn-primary' target="_blank">Apple TestFlight</a>
           </div>
         </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-          <img src={MP} alt="" />
-          </div>
-          <h3>Millie Plane - iPadOS</h3>
+            <img src={IMG3} alt="" />
+            </div>
+          <h3>Ship Cap'n Crew - iOS</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/MilliePlane" className='btn' target="_blank">Github</a>
-          <a href="https://testflight.apple.com/join/6iP84rAD" className='btn btn-primary' target="_blank">Apple TestFlight</a>
+          <a href="https://github.com/dpayne5532/ShipCapnCrew" className='btn' target="_blank">GitHub</a>
+          <a href="https://testflight.apple.com/join/KTEswE8W" className='btn btn-primary' target="_blank">Apple TestFlight</a>
           </div>
         </article>
 
@@ -69,15 +82,7 @@ const Portfolio = () => {
           <a href="https://youtu.be/czxMf96rju8" className='btn btn-primary' target="_blank">Watch on YouTube</a>
         </article>
 
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
-            </div>
-          <h3>Hobos in Moab</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://youtu.be/nkdSQmNA2zY" className='btn btn-primary' target="_blank">Watch on YouTube</a>
-          </div>
-        </article>
+
 
 
 
