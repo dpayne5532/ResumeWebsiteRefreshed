@@ -2,7 +2,7 @@ import React from 'react'
 import IMG1 from '../../assets/portfolio1.png'
 import MP from '../../assets/milliePlane.png'
 import IMG3 from '../../assets/portfolioscc.png'
-import IMG4 from '../../assets/portfolio4.png'
+import IMG4 from '../../assets/portfolioWeb.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio7.png'
 import AppIcon1 from '../../assets/milliePlaneIcon.png'
@@ -77,9 +77,9 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>
-          <h3>Aerial Drone Footage</h3>
+          <h3>This Website - ReactJS</h3>
           <div className="portfolio__item-cta"></div>
-          <a href="https://youtu.be/czxMf96rju8" className='btn btn-primary' target="_blank">Watch on YouTube</a>
+          <a href="https://github.com/dpayne5532/ResumeWebsiteRefreshed" className='btn' target="_blank">GitHub</a>
         </article>
 
 
