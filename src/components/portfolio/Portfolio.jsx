@@ -37,8 +37,6 @@ const Portfolio = () => {
           </div>
         </article>
 
-
-
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
@@ -49,8 +47,6 @@ const Portfolio = () => {
           <a href="https://testflight.apple.com/join/zRfRWLCI" className='btn btn-primary' target="_blank">Apple TestFlight</a>
           </div>
         </article>
-
-
 
         <article className="portfolio__item">
           <div className="portfolio__item-image"><img src={IMG6} alt="" /></div>
@@ -81,14 +77,6 @@ const Portfolio = () => {
           <div className="portfolio__item-cta"></div>
           <a href="https://github.com/dpayne5532/ResumeWebsiteRefreshed" className='btn' target="_blank">GitHub</a>
         </article>
-
-
-
-
-
-
-
-
 
       </div>
     </section>
