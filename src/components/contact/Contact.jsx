@@ -3,6 +3,7 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsTwitter} from 'react-icons/bs'
+import {FaGithub} from 'react-icons/fa'
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
@@ -33,10 +34,10 @@ const Contact = () => {
           </article>
 
           <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon"/>
-            <h4>Facebook Messenger</h4>
-            <h5>Dan Payne</h5>
-            <a href="https://m.me/profile.php?id=100012329175749" target="_blank">Message me on Facebook</a>
+            <FaGithub className="contact__option-icon"/>
+            <h4>GitHub</h4>
+            <h5>dpayne5532</h5>
+            <a href="https://github.com/dpayne5532" target="_blank">Follow me on GitHub</a>
 
           </article>
 
