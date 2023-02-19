@@ -82,7 +82,7 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className="portfolio__item">
+        <article className="portfolio__item2">
          {/* SPACE HOLDER ARTICLE */}
         </article>
 
@@ -95,7 +95,7 @@ const Portfolio = () => {
           <a href="https://github.com/dpayne5532/ResumeWebsiteRefreshed" className='btn' target="_blank">GitHub</a>
         </article>
 
-        <article className="portfolio__item">
+        <article className="portfolio__item2">
           {/* SPACE HOLDER */}
         </article>
 

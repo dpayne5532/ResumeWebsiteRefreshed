@@ -12,6 +12,15 @@
   transition: var(--transition);
 }
 
+.portfolio__item2 {
+  background: transparent;
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+
 .portfolio__item:hover {
   border-color: var(--color-primary-variant);
   background: transparent;

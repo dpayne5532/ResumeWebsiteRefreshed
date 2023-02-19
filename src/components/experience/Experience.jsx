@@ -296,7 +296,7 @@ const Experience = () => {
 
         </div>
         <div className="experience__backend">
-        <h3>E-Commerce</h3>
+        <h3>eCommerce</h3>
         <div className="experience__content">
 
             <article className="experience__details">
