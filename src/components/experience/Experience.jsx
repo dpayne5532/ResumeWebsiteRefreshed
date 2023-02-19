@@ -79,28 +79,28 @@ const Experience = () => {
             <article className="experience__details">
              <BsPatchCheckFill className="experience__details-icon" />
              <div>
-                <h4>Node JS</h4>
+                <h4>NodeJS</h4>
               </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Express JS</h4>
+                <h4>ExpressJS</h4>
               </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>MongoDB</h4>
+                <h4>NoSQL</h4>
               </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>MySQL</h4>
+                <h4>SQL</h4>
               </div>
             </article>
 
@@ -118,6 +118,20 @@ const Experience = () => {
               </div>
             </article>
 
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>cPanel</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>POP3</h4>
+              </div>
+            </article>
 
         </div>
         </div>
@@ -154,14 +168,14 @@ const Experience = () => {
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Appstore Connect</h4>
+              <h4>Sprite Kit</h4>
             </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>TestFlight</h4>
+              <h4>Core Data</h4>
             </div>
             </article>
 
@@ -169,12 +183,65 @@ const Experience = () => {
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Apple App Store</h4>
+              <h4>Xcode Cloud</h4>
             </div>
             </article>
           </div>
-
         </div>
+
+
+        <div className="experience__frontend">
+          <h3>iOS Deployment</h3>
+          <div className="experience__content">
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>App Store Connect</h4>
+            </div>
+            </article>
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Apple Test Flight</h4>
+            </div>
+
+            </article>
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Apple Transporter</h4>
+            </div>
+
+            </article>
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>App Analytics</h4>
+            </div>
+            </article>
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Sales and Trends</h4>
+            </div>
+            </article>
+
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Payments</h4>
+            </div>
+            </article>
+          </div>
+        </div>
+
+
 
         <div className="experience__frontend">
           <h3>Content Creation</h3>
@@ -206,7 +273,7 @@ const Experience = () => {
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Green Screen</h4>
+              <h4>Adobe Lightroom</h4>
             </div>
             </article>
 
@@ -220,7 +287,7 @@ const Experience = () => {
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Photographer</h4>
+              <h4>Photography</h4>
             </div>
             </article>
 
@@ -235,14 +302,14 @@ const Experience = () => {
             <article className="experience__details">
              <BsPatchCheckFill className="experience__details-icon" />
              <div>
-                <h4>Shopify</h4>
+                <h4>Amazon Seller</h4>
               </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Amazon Seller</h4>
+                <h4>Shopify</h4>
               </div>
             </article>
 
@@ -263,7 +330,7 @@ const Experience = () => {
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Dropshipping</h4>
+                <h4>Quickbooks</h4>
               </div>
             </article>
 

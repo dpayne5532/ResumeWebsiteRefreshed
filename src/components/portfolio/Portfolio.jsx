@@ -5,6 +5,7 @@ import IMG3 from '../../assets/portfolioscc.png'
 import IMG4 from '../../assets/portfolioWeb.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio7.png'
+import IMG7 from '../../assets/portfolio8.png'
 import AppIcon1 from '../../assets/milliePlaneIcon.png'
 import './portfolio.css'
 
@@ -73,11 +74,29 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
+            <img src={IMG7} alt="" />
+          </div>
+          <h3>Five DiceTV - tvOS</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://testflight.apple.com/join/sCQzhlHC" className='btn btn-primary' target="_blank">Apple TestFlight</a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+         {/* SPACE HOLDER ARTICLE */}
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>
           <h3>This Website - ReactJS</h3>
           <div className="portfolio__item-cta"></div>
           <a href="https://github.com/dpayne5532/ResumeWebsiteRefreshed" className='btn' target="_blank">GitHub</a>
+        </article>
+
+        <article className="portfolio__item">
+          {/* SPACE HOLDER */}
         </article>
 
       </div>
