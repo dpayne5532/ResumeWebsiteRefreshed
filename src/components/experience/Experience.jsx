@@ -122,6 +122,8 @@ const Experience = () => {
         </div>
         </div>
 
+
+
         <div className="experience__frontend">
           <h3>iOS Development</h3>
           <div className="experience__content">
@@ -181,22 +183,22 @@ const Experience = () => {
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Adobe Premiere</h4>
-            </div>
-            </article>
-
-            <article className="experience__details">
-            <BsPatchCheckFill className="experience__details-icon" />
-            <div>
               <h4>Adobe Photoshop</h4>
             </div>
+            </article>
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Adobe Illustrator</h4>
+            </div>
 
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>OBS Studio</h4>
+              <h4>Adobe Premiere</h4>
             </div>
 
             </article>
@@ -226,11 +228,64 @@ const Experience = () => {
           </div>
 
         </div>
+        <div className="experience__backend">
+        <h3>E-Commerce</h3>
+        <div className="experience__content">
 
+            <article className="experience__details">
+             <BsPatchCheckFill className="experience__details-icon" />
+             <div>
+                <h4>Shopify</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Amazon Seller</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Square Processing</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Teelaunch</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Dropshipping</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Google Analytics</h4>
+              </div>
+            </article>
+
+
+        </div>
+        </div>
 
 
       </div>
     </section>
+
+
+
+
+
   )
 }
 
