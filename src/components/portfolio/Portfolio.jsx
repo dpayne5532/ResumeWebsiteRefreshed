@@ -34,7 +34,7 @@ const Portfolio = () => {
           <h3>Ship Cap'n Crew - iOS</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/ShipCapnCrew" className='btn' target="_blank">GitHub</a>
-          <a href="https://apps.apple.com/us/app/ship-capn-crew/id1670235470" className='btn btn-primary' target="_blank"> App Store </a>
+          <a href="https://apps.apple.com/us/app/ship-capn-crew/id1670235470" className='btn btn-primary' target="_blank">Apple App Store</a>
           </div>
         </article>
 
@@ -45,7 +45,7 @@ const Portfolio = () => {
           <h3>Five DiceTV - tvOS</h3>
           <div className="portfolio__item-cta">
           <a href="https://testflight.apple.com/join/sCQzhlHC" className='btn btn-primary' target="_blank">Apple TestFlight</a>
-          <a href="https://apps.apple.com/us/app/five-dice-tv/id1672794861" className='btn btn-primary' target="_blank"> App Store </a>
+          <a href="https://apps.apple.com/us/app/five-dice-tv/id1672794861" className='btn btn-primary' target="_blank">Apple App Store</a>
           </div>
         </article>
 
