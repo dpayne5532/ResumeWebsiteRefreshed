@@ -8,13 +8,13 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h3>Azure Cloud Services</h3>
           <div className="experience__content">
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>HTML</h4>
+              <h4>Entra ID Admin</h4>
             </div>
 
             </article>
@@ -22,21 +22,21 @@ const Experience = () => {
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>CSS</h4>
+              <h4>Intune</h4>
             </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>JavaScript</h4>
+              <h4>Remote Desktop</h4>
             </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>ReactJS</h4>
+              <h4>Microsoft 365</h4>
             </div>
             </article>
 
@@ -73,7 +73,7 @@ const Experience = () => {
         </div>
 
         <div className="experience__backend">
-        <h3>Backend Development</h3>
+        <h3>Apple Business Manager</h3>
         <div className="experience__content">
 
             <article className="experience__details">
