@@ -24,19 +24,19 @@ const About = () => {
           
           <div className="about__cards">
           <div className="about__card">
-          <h5>MS Certified</h5><p></p>
+          <h5>Certified 10.29.2024</h5><p></p>
             <img src={AZURE_BADGE} alt="Azure 900 Badge" />
             
           </div>
             <article className="about__card">
               
-              <h5>In Progress</h5><p></p>
+              <h5>Exam 3.4.2025</h5><p></p>
               <img src={AZURE_BADGEB} alt="Azure 104 Badge" />
               </article>
 
             <article className="about__card">
               
-              <h5>In Progress</h5><p></p>
+              <h5>Exam 4.22.2025</h5><p></p>
               <img src={AZURE_BADGEC} alt="Azure 305 Badge" />
               
             </article>
@@ -53,10 +53,7 @@ const About = () => {
             I currently hold the Microsoft Certified: Azure Fundamentals (AZ-900) 
             certification and am actively pursuing Azure Administrator Associate (
               AZ-104) and Azure Solutions Architect Expert (AZ-305) to deepen 
-              my expertise in cloud administration and architecture. My skill 
-              set includes Azure Virtual Machines, Active Directory, Intune, 
-              networking, automation with PowerShell, and security best 
-              practices, ensuring reliable and high performing IT environments. 
+              my expertise in cloud administration and architecture. 
               I thrive on problem solving, optimizing cloud operations, and 
               implementing best in class solutions that align with business goals.
 

@@ -60,11 +60,15 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Intune</p>
+              <p>Intune MDM/MAM</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
               <p>Microsoft Certified</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Apple Business Manager</p>
             </li>
           </ul>
         </article>
@@ -77,23 +81,20 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>5+ years experience in Adobe Photoshop</p>
+              <p>10+ years experience in Adobe Photoshop</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>3+ years experience in Adobe Premiere</p>
+              <p>6+ years experience in Adobe Premiere</p>
             </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Studio Photography</p>
-            </li>
+           
             <li>
               <BiCheck className='service__list-icon' />
               <p>Video Production</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Licensed UAV Pilot</p>
+              <p>Video Drone Pilot</p>
             </li>
 
           </ul>
