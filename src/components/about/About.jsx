@@ -37,15 +37,21 @@ const About = () => {
             </article>
           </div>
 
-          <p>I’ve been independently studying iOS programming over
-            the past 2 years, and recently attended a full stack
-            web development boot camp. I’ve not only learned the
-            technical coding side, but also Agile methodologies of
-            software development. I’m eager to learn more and
-            fully intend to enter the software developer field as a
-            junior developer. Along with that, I have an extensive
-            professional background over various industries that
-            have each somehow utilized my passion for technology.
+          <p>I am a currently a Lead Systems Administrator with 
+            extensive experience managing and optimizing Microsoft 
+            Azure and Microsoft 365 environments. With a strong 
+            foundation in cloud infrastructure, identity management, 
+            automation, and security, I specialize in designing and 
+            maintaining scalable, secure, and efficient cloud solutions. 
+            I currently hold the Microsoft Certified: Azure Fundamentals (AZ-900) 
+            certification and am actively pursuing Azure Administrator Associate (
+              AZ-104) and Azure Solutions Architect Expert (AZ-305) to deepen 
+              my expertise in cloud administration and architecture. My skill 
+              set includes Azure Virtual Machines, Active Directory, Intune, 
+              networking, automation with PowerShell, and security best 
+              practices, ensuring reliable and high performing IT environments. 
+              I thrive on problem solving, optimizing cloud operations, and 
+              implementing best in class solutions that align with business goals.
 
           </p>
           <a href="#contact" className="btn btn-primary">Send me a Message</a>

@@ -8,13 +8,13 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Azure Cloud Services</h3>
+          <h3>Azure Infrastructure & Administration</h3>
           <div className="experience__content">
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Entra ID Admin</h4>
+              <h4>Azure Virtual Machines</h4>
             </div>
 
             </article>
@@ -22,42 +22,42 @@ const Experience = () => {
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Intune</h4>
+              <h4>Azure Resource Manager</h4>
             </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Remote Desktop</h4>
+              <h4>Azure Networking</h4>
             </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Microsoft 365</h4>
+              <h4>Azure Entra ID/Active Directory</h4>
             </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Vue</h4>
+              <h4>Azure Storage Solution</h4>
             </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Svelte</h4>
+              <h4>Azure Security</h4>
             </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Bootstrap</h4>
+              <h4>Azure Monitor & Log Analytics</h4>
             </div>
             </article>
 
@@ -65,7 +65,7 @@ const Experience = () => {
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Sass</h4>
+              <h4>Microsoft 365 & Cloud Services</h4>
             </div>
             </article>
           </div>
@@ -73,48 +73,48 @@ const Experience = () => {
         </div>
 
         <div className="experience__backend">
-        <h3>Apple Business Manager</h3>
+        <h3>Microsoft Intune Adminstration</h3>
         <div className="experience__content">
 
             <article className="experience__details">
              <BsPatchCheckFill className="experience__details-icon" />
              <div>
-                <h4>NodeJS</h4>
+                <h4>Mobile Device Managment</h4>
               </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>ExpressJS</h4>
+                <h4>Mobile Application Managment</h4>
               </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>NoSQL</h4>
+                <h4>Compliance & Conditional Access</h4>
               </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>SQL</h4>
+                <h4>Windows Autopilot & Zero Touch Deployment</h4>
               </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Python</h4>
+                <h4>Configuration Profiles & Policy Enforcment</h4>
               </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>PHP</h4>
+                <h4>Patch Management & Update Policies</h4>
               </div>
             </article>
 
@@ -122,14 +122,14 @@ const Experience = () => {
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>cPanel</h4>
+                <h4>Remote Management & Endpoint Security</h4>
               </div>
             </article>
 
             <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>POP3</h4>
+                <h4>Reporting & Monitoring</h4>
               </div>
             </article>
 
