@@ -4,6 +4,9 @@ import {RiMacbookLine} from 'react-icons/ri'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import './about.css'
 import ME from '../../assets/me-about2.png'
+import AZURE_BADGE from '../../assets/900badge.png'
+import AZURE_BADGEB from '../../assets/104badge.png'
+import AZURE_BADGEC from '../../assets/305badge.png'
 
 const About = () => {
   return (
@@ -13,28 +16,32 @@ const About = () => {
           <div className="about__me-image">
             <img src={ME} alt="About Image"/>
           </div>
+          
 
         </div>
         <div className="about__content">
+
+          
           <div className="about__cards">
+          <div className="about__card">
+          <h5>MS Certified</h5><p></p>
+            <img src={AZURE_BADGE} alt="Azure 900 Badge" />
+            
+          </div>
+            <article className="about__card">
+              
+              <h5>In Progress</h5><p></p>
+              <img src={AZURE_BADGEB} alt="Azure 104 Badge" />
+              </article>
 
             <article className="about__card">
-              <FaAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>20+ years in professional enviornments 30+ years working with technology</small>
+              
+              <h5>In Progress</h5><p></p>
+              <img src={AZURE_BADGEC} alt="Azure 305 Badge" />
+              
             </article>
 
-            <article className="about__card">
-              <RiMacbookLine className='about__icon' />
-              <h5>Versatility</h5>
-              <small>Experience with dozens of platforms</small>
-            </article>
-
-            <article className="about__card">
-              <VscFolderLibrary className='about__icon' />
-              <h5>Projects</h5>
-              <small>Everything from 2D adventure games to new construction closing software</small>
-            </article>
+         
           </div>
 
           <p>I am a currently a Lead Systems Administrator with 
