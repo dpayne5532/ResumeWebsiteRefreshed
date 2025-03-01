@@ -24,19 +24,19 @@ const About = () => {
           
           <div className="about__cards">
           <div className="about__card">
-          <h5>Certified 10.29.2024</h5><p></p>
+          <h5>Certified</h5><p></p>
             <img src={AZURE_BADGE} alt="Azure 900 Badge" />
             
           </div>
             <article className="about__card">
               
-              <h5>Exam 3.4.2025</h5><p></p>
+              <h5>Scheduled</h5><p></p>
               <img src={AZURE_BADGEB} alt="Azure 104 Badge" />
               </article>
 
             <article className="about__card">
               
-              <h5>Exam 4.22.2025</h5><p></p>
+              <h5>In Progress</h5><p></p>
               <img src={AZURE_BADGEC} alt="Azure 305 Badge" />
               
             </article>
