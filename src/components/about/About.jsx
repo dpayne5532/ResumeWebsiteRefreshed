@@ -24,25 +24,27 @@ const About = () => {
           
           <div className="about__cards">
           <div className="about__card">
-          <h5>Certified</h5><p></p>
+          <h5></h5><br></br>
             <img src={AZURE_BADGE} alt="Azure 900 Badge" />
+            
             
           </div>
             <article className="about__card">
               
-              <h5>Scheduled</h5><p></p>
+              <h5></h5><br></br>
               <img src={AZURE_BADGEB} alt="Azure 104 Badge" />
               </article>
 
             <article className="about__card">
               
-              <h5>In Progress</h5><p></p>
+              <h5></h5><br></br>
               <img src={AZURE_BADGEC} alt="Azure 305 Badge" />
               
             </article>
 
          
           </div>
+          
 
           <p>I am a currently a Lead Systems Administrator with 
             extensive experience managing and optimizing Microsoft 
@@ -51,8 +53,7 @@ const About = () => {
             automation, and security, I specialize in designing and 
             maintaining scalable, secure, and efficient cloud solutions. 
             I currently hold the Microsoft Certified: Azure Fundamentals (AZ-900) 
-            certification and am actively pursuing Azure Administrator Associate (
-              AZ-104) and Azure Solutions Architect Expert (AZ-305) to deepen 
+            certification and am actively pursuing Azure Administrator Associate (AZ-104) and Azure Solutions Architect Expert (AZ-305) to deepen 
               my expertise in cloud administration and architecture. 
               I thrive on problem solving, optimizing cloud operations, and 
               implementing best in class solutions that align with business goals.
