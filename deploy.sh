@@ -1,11 +1,14 @@
 #!/bin/bash
 
 set -e  # Exit immediately if a command exits with a non-zero status
+current_branch=$(git rev-parse --abbrev-ref HEAD)
 
 echo "🚀 Starting deployment of ResumeWebsiteRefreshed..."
 
 echo "🔄 Pulling latest code from GitHub..."
+git checkout master
 git pull origin master
+git checkout "$current_branch"
 
 echo "📦 Installing/updating dependencies..."
 npm install
