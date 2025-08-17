@@ -4,7 +4,7 @@ import {RiMacbookLine} from 'react-icons/ri'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import './about.css'
 import ME from '../../assets/me-about2.png'
-import AZURE_BADGE from '../../assets/900badge.png'
+import AZURE_BADGE from '../../assets/MCE.png'
 import AZURE_BADGEB from '../../assets/104badge.png'
 import AZURE_BADGEC from '../../assets/305badge.png'
 
@@ -46,17 +46,11 @@ const About = () => {
           </div>
           
 
-          <p>I am a currently a Lead Systems Administrator with 
-            extensive experience managing and optimizing Microsoft 
-            Azure and Microsoft 365 environments. With a strong 
-            foundation in cloud infrastructure, identity management, 
-            automation, and security, I specialize in designing and 
-            maintaining scalable, secure, and efficient cloud solutions. 
-            I currently hold the Microsoft Certified: Azure Fundamentals (AZ-900) 
-            certification and am actively pursuing Azure Administrator Associate (AZ-104) and Azure Solutions Architect Expert (AZ-305) to deepen 
-              my expertise in cloud administration and architecture. 
-              I thrive on problem solving, optimizing cloud operations, and 
-              implementing best in class solutions that align with business goals.
+          <p>I am currently a Lead Systems Administrator with extensive experience managing and optimizing Microsoft Azure and Microsoft 365 environments. With a strong foundation in cloud infrastructure, identity management, automation, and security, I specialize in designing and maintaining scalable, secure, and efficient cloud solutions.
+
+I hold the Microsoft Certified: Azure Administrator Associate (AZ-104) and Microsoft Certified: Azure Solutions Architect Expert (AZ-305) certifications, demonstrating advanced expertise in both cloud administration and architecture. These certifications, combined with hands-on experience, position me as a Microsoft Certified Expert capable of delivering enterprise-grade solutions that align technology with business goals.
+
+I thrive on problem solving, optimizing cloud operations, and implementing best-in-class solutions that drive efficiency, security, and innovation.
 
           </p>
           <a href="#contact" className="btn btn-primary">Send me a Message</a>
