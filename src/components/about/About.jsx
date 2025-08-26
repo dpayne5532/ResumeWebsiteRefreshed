@@ -4,7 +4,7 @@ import {RiMacbookLine} from 'react-icons/ri'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import './about.css'
 import ME from '../../assets/me-about2.png'
-import AZURE_BADGE from '../../assets/MCE.png'
+import AZURE_BADGE from '../../assets/900badge.png'
 import AZURE_BADGEB from '../../assets/104badge.png'
 import AZURE_BADGEC from '../../assets/305badge.png'
 
