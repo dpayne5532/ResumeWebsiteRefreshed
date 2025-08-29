@@ -49,7 +49,6 @@ const Experience = () => {
             <Skill title="PowerShell Scripting" />
             <Skill title="Bash / Shell Scripting" />
             <Skill title="CI/CD Implementation" />
-            <Skill title="Docker & Containerization" />
           </div>
         </div>
 
