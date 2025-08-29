@@ -1,108 +1,67 @@
-import React from 'react'
-import './services.css'
-import {BiCheck} from 'react-icons/bi'
+import React from 'react';
+import './services.css';
+import { BiCheck } from 'react-icons/bi';
 
 const Services = () => {
   return (
-    <section id='services'>
+    <section id="services">
       <h2>What I Do</h2>
 
-
       <div className="container services__container">
+        {/* iOS Development */}
         <article className="service">
           <div className="service__head">
-            <h3>Swift Platforms</h3>
+            <h3>iOS Ecosystem</h3>
           </div>
-
-          <ul className='service__list'>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>iOS</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>iPadOS</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>tvOS</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>watchOS</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>macOS</p>
-            </li>
-
+          <ul className="service__list">
+            <ServiceItem text="iOS, iPadOS, macOS, watchOS, tvOS" />
+            <ServiceItem text="SwiftUI / UIKit Development" />
+            <ServiceItem text="Xcode & Xcode Cloud" />
+            <ServiceItem text="App Store Deployment (TestFlight, App Analytics)" />
+            <ServiceItem text="Core Data / SpriteKit / Apple Services" />
           </ul>
         </article>
-        {/* END OF iOS Apps*/}
+
+        {/* System Administration */}
         <article className="service">
           <div className="service__head">
-            <h3>System Admin</h3>
+            <h3>System Administration</h3>
           </div>
-
-          <ul className='service__list'>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Azure</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Entra ID</p>
-            </li>
-
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Office 365</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Intune MDM/MAM</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Microsoft Certified</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Apple Business Manager</p>
-            </li>
+          <ul className="service__list">
+            <ServiceItem text="Azure Infrastructure Management" />
+            <ServiceItem text="Entra ID / Active Directory" />
+            <ServiceItem text="Microsoft 365 & Exchange Online" />
+            <ServiceItem text="Endpoint Management with Intune MDM/MAM" />
+            <ServiceItem text="Apple Business Manager Integration" />
+            <ServiceItem text="Group Policy & Configuration Profiles" />
+            <ServiceItem text="Patch Management & Compliance Policies" />
+            <ServiceItem text="Remote Device Support & Troubleshooting" />
+            <ServiceItem text="Microsoft Certified" />
           </ul>
         </article>
-        {/* WEB DEVELOPMENT */}
+
+        {/* DevOps & Automation */}
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>DevOps & Automation</h3>
           </div>
-
-          <ul className='service__list'>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>10+ years experience in Adobe Photoshop</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>6+ years experience in Adobe Premiere</p>
-            </li>
-           
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Video Production</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Video Drone Pilot</p>
-            </li>
-
+          <ul className="service__list">
+            <ServiceItem text="CI/CD with GitHub Actions & Azure DevOps" />
+            <ServiceItem text="Scripting with PowerShell & Bash" />
+            <ServiceItem text="Monitoring with Azure Monitor & Sentinel" />
+            <ServiceItem text="Security Hardening & Role-Based Access Control" />
           </ul>
         </article>
-        {/* END OF CONTENT CREATION */}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Services
+const ServiceItem = ({ text }) => (
+  <li>
+    <BiCheck className="service__list-icon" />
+    <p>{text}</p>
+  </li>
+);
+
+export default Services;
