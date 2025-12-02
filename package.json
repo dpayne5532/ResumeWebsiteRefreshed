@@ -51,5 +51,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dpayne5532/ResumeWebsiteRefreshed/issues"
+  },
+  "overrides": {
+    "node-forge": "1.3.2"
   }
 }
