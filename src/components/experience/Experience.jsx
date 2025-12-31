@@ -9,85 +9,80 @@ const Experience = () => {
 
       <div className="container experience__container">
 
-        {/* Azure */}
+        {/* Site Reliability Engineering */}
         <div className="experience__frontend">
-          <h3>Azure Infrastructure & Administration</h3>
+          <h3>Site Reliability Engineering</h3>
           <div className="experience__content">
-            <Skill title="Azure Virtual Machines" />
-            <Skill title="Azure Resource Manager" />
-            <Skill title="Azure Networking" />
-            <Skill title="Azure Entra ID / Active Directory" />
-            <Skill title="Azure Storage Solution" />
-            <Skill title="Azure Security" />
-            <Skill title="Azure Monitor & Log Analytics" />
-            <Skill title="Microsoft 365 & Cloud Services" />
+            <Skill title="Highly Available Azure Architecture" />
+            <Skill title="Incident Response & Root Cause Analysis" />
+            <Skill title="Operational Metrics & Reliability Targets" />
+            <Skill title="Eliminating Manual Toil through Automation" />
+            <Skill title="Performance & Capacity Planning" />
+            <Skill title="Cost-Aware Infrastructure Design" />
           </div>
         </div>
 
-        {/* Intune */}
+        {/* Azure Cloud Infrastructure */}
         <div className="experience__backend">
-          <h3>Microsoft Intune Administration</h3>
+          <h3>Azure Cloud Infrastructure</h3>
           <div className="experience__content">
-            <Skill title="Mobile Device Management" />
-            <Skill title="Mobile Application Management" />
-            <Skill title="Compliance & Conditional Access" />
-            <Skill title="Windows Autopilot & Zero Touch Deployment" />
-            <Skill title="Configuration Profiles & Policy Enforcement" />
-            <Skill title="Patch Management & Update Policies" />
-            <Skill title="Remote Management & Endpoint Security" />
-            <Skill title="Reporting & Monitoring" />
+            <Skill title="Azure Virtual Machines & App Services" />
+            <Skill title="Azure Networking (VNETs, DNS, Routing)" />
+            <Skill title="Azure Entra ID (AAD) & Identity Management" />
+            <Skill title="Azure Storage & Azure SQL" />
+            <Skill title="Azure Resource Manager & Bicep" />
+            <Skill title="Secure & Fault-Tolerant Design" />
           </div>
         </div>
 
-        {/* DevOps */}
+        {/* CI/CD & Automation */}
         <div className="experience__frontend">
-          <h3>DevOps & Automation</h3>
+          <h3>CI/CD & Automation</h3>
           <div className="experience__content">
-            <Skill title="Azure DevOps Pipelines" />
+            <Skill title="Azure DevOps Pipelines (Built from Scratch)" />
             <Skill title="GitHub Actions" />
             <Skill title="Terraform (Infrastructure as Code)" />
-            <Skill title="PowerShell Scripting" />
+            <Skill title="PowerShell Automation" />
             <Skill title="Bash / Shell Scripting" />
-            <Skill title="CI/CD Implementation" />
+            <Skill title="System Integration & Deployment Automation" />
           </div>
         </div>
 
-        {/* Monitoring & Security */}
+        {/* Observability & Incident Response */}
         <div className="experience__backend">
-          <h3>Monitoring & Security</h3>
+          <h3>Observability & Incident Response</h3>
           <div className="experience__content">
-            <Skill title="Azure Security Center" />
+            <Skill title="Azure Monitor & Log Analytics" />
+            <Skill title="Alerting & Reliability Dashboards" />
             <Skill title="Microsoft Sentinel (SIEM)" />
             <Skill title="Endpoint Detection & Response (EDR)" />
-            <Skill title="Log Analytics Workspace" />
-            <Skill title="RBAC (Role-Based Access Control)" />
+            <Skill title="Operational Troubleshooting & Escalation" />
+            <Skill title="Postmortems & Continuous Improvement" />
+          </div>
+        </div>
+
+        {/* Security & Governance */}
+        <div className="experience__frontend">
+          <h3>Security & Governance</h3>
+          <div className="experience__content">
+            <Skill title="RBAC & Least Privilege Access" />
+            <Skill title="Conditional Access & Zero Trust" />
+            <Skill title="Azure Security Center" />
+            <Skill title="Key Vault & Secrets Management" />
             <Skill title="Security Baselines & Hardening" />
+            <Skill title="Compliance & Audit Readiness" />
           </div>
         </div>
 
-        {/* iOS Development */}
-        <div className="experience__frontend">
-          <h3>iOS Development</h3>
+        {/* iOS Engineering (Supporting Skillset) */}
+        <div className="experience__backend">
+          <h3>Software Engineering (iOS)</h3>
           <div className="experience__content">
-            <Skill title="SwiftUI" />
-            <Skill title="UIKit" />
-            <Skill title="Xcode" />
-            <Skill title="Sprite Kit" />
-            <Skill title="Core Data" />
-            <Skill title="Xcode Cloud" />
-          </div>
-        </div>
-
-        {/* iOS Deployment */}
-        <div className="experience__frontend">
-          <h3>iOS Deployment</h3>
-          <div className="experience__content">
-            <Skill title="App Store Connect" />
-            <Skill title="Apple TestFlight" />
-            <Skill title="Apple Transporter" />
-            <Skill title="App Analytics" />
-            <Skill title="Sales and Trends" />
-            <Skill title="Payments" />
+            <Skill title="SwiftUI & UIKit" />
+            <Skill title="Xcode & Xcode Cloud" />
+            <Skill title="CI/CD for Mobile Applications" />
+            <Skill title="App Store & TestFlight Deployment" />
+            <Skill title="Application Lifecycle & Observability" />
           </div>
         </div>
 
