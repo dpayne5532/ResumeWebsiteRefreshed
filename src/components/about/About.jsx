@@ -51,11 +51,11 @@ const About = () => {
           </div>
 
           <p>
-            I am currently a Lead Systems Administrator with extensive experience managing and optimizing Microsoft Azure and Microsoft 365 environments. With a strong foundation in cloud infrastructure, identity management, automation, and security, I specialize in designing and maintaining scalable, secure, and efficient cloud solutions.
+            I am a Lead Systems Administrator with a strong Site Reliability Engineering mindset, focused on building and operating reliable, scalable, and secure Azure platforms. My work centers on designing cloud infrastructure that is observable, automated, and resilient by default, while enabling engineering teams to deploy and iterate safely.
             <br /><br />
-            I hold the Microsoft Certified: Azure Administrator Associate (AZ-104) and Microsoft Certified: Azure Solutions Architect Expert (AZ-305) certifications, demonstrating advanced expertise in both cloud administration and architecture. These certifications, combined with hands-on experience, position me as a Microsoft Certified Expert capable of delivering enterprise-grade solutions that align technology with business goals.
+            I hold three Microsoft Azure certifications: AZ-900 (Azure Fundamentals), AZ-104 (Azure Administrator Associate), and AZ-305 (Azure Solutions Architect Expert). I have hands-on experience designing Azure architectures, implementing CI/CD pipelines from the ground up, automating infrastructure using Infrastructure as Code, and leading incident response and operational improvements in production environments.
             <br /><br />
-            I thrive on problem solving, optimizing cloud operations, and implementing best-in-class solutions that drive efficiency, security, and innovation.
+            With a Bachelor of Science in Aviation Education, I bring a safety-first, reliability-driven mindset to cloud engineering. I am passionate about reducing operational toil, improving system visibility, and aligning reliability engineering with real business outcomes.
           </p>
 
           <a href="#contact" className="btn btn-primary">Send me a Message</a>
