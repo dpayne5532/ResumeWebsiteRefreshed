@@ -8,50 +8,64 @@ const Services = () => {
       <h2>What I Do</h2>
 
       <div className="container services__container">
-        {/* iOS Development */}
+
+        {/* Site Reliability Engineering */}
         <article className="service">
           <div className="service__head">
-            <h3>iOS Ecosystem</h3>
+            <h3>Site Reliability Engineering</h3>
           </div>
           <ul className="service__list">
-            <ServiceItem text="iOS, iPadOS, macOS, watchOS, tvOS" />
-            <ServiceItem text="SwiftUI / UIKit Development" />
-            <ServiceItem text="Xcode & Xcode Cloud" />
-            <ServiceItem text="App Store Deployment (TestFlight, App Analytics)" />
-            <ServiceItem text="Core Data / SpriteKit / Apple Services" />
+            <ServiceItem text="Design and operate reliable, scalable Azure platforms" />
+            <ServiceItem text="Lead incident response, mitigation, and postmortems" />
+            <ServiceItem text="Define and monitor system health and reliability metrics" />
+            <ServiceItem text="Eliminate operational toil through automation" />
+            <ServiceItem text="Balance performance, scalability, and cost-aware engineering" />
           </ul>
         </article>
 
-        {/* System Administration */}
+        {/* Cloud Infrastructure & Platform Engineering */}
         <article className="service">
           <div className="service__head">
-            <h3>System Administration</h3>
+            <h3>Cloud Infrastructure & Platform Engineering</h3>
           </div>
           <ul className="service__list">
-            <ServiceItem text="Azure Infrastructure Management" />
-            <ServiceItem text="Entra ID / Active Directory" />
-            <ServiceItem text="Microsoft 365 & Exchange Online" />
-            <ServiceItem text="Endpoint Management with Intune MDM/MAM" />
-            <ServiceItem text="Apple Business Manager Integration" />
-            <ServiceItem text="Group Policy & Configuration Profiles" />
-            <ServiceItem text="Patch Management & Compliance Policies" />
-            <ServiceItem text="Remote Device Support & Troubleshooting" />
-            <ServiceItem text="Microsoft Certified" />
+            <ServiceItem text="Azure infrastructure design and operations" />
+            <ServiceItem text="Entra ID (AAD), identity, and access management" />
+            <ServiceItem text="Microsoft 365 and Exchange Online administration" />
+            <ServiceItem text="Endpoint management with Intune MDM/MAM" />
+            <ServiceItem text="Security, governance, and compliance by design" />
+            <ServiceItem text="Patch management and configuration standardization" />
           </ul>
         </article>
 
-        {/* DevOps & Automation */}
+        {/* CI/CD, Automation & Observability */}
         <article className="service">
           <div className="service__head">
-            <h3>DevOps & Automation</h3>
+            <h3>CI/CD, Automation & Observability</h3>
           </div>
           <ul className="service__list">
-            <ServiceItem text="CI/CD with GitHub Actions & Azure DevOps" />
-            <ServiceItem text="Scripting with PowerShell & Bash" />
-            <ServiceItem text="Monitoring with Azure Monitor & Sentinel" />
-            <ServiceItem text="Security Hardening & Role-Based Access Control" />
+            <ServiceItem text="CI/CD pipelines with Azure DevOps and GitHub Actions" />
+            <ServiceItem text="Infrastructure as Code and configuration automation" />
+            <ServiceItem text="PowerShell and Bash scripting" />
+            <ServiceItem text="Monitoring and alerting with Azure Monitor and Sentinel" />
+            <ServiceItem text="Security hardening and role-based access control" />
           </ul>
         </article>
+
+        {/* Software Engineering (Supporting Skillset) */}
+        <article className="service">
+          <div className="service__head">
+            <h3>Software Engineering (iOS)</h3>
+          </div>
+          <ul className="service__list">
+            <ServiceItem text="iOS, iPadOS, macOS, watchOS, and tvOS development" />
+            <ServiceItem text="SwiftUI and UIKit application development" />
+            <ServiceItem text="CI/CD with Xcode Cloud" />
+            <ServiceItem text="App Store deployment and TestFlight workflows" />
+            <ServiceItem text="Application lifecycle awareness and production support" />
+          </ul>
+        </article>
+
       </div>
     </section>
   );
