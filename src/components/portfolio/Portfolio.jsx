@@ -53,37 +53,7 @@ const Portfolio = () => {
 
 
 
-        <article className="portfolio__item">
-          <div className="portfolio__item-image"><img src={IMG6} alt="" /></div>
 
-          <h3>Card Workout - iOS</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/CardWorkout" className='btn' target="_blank">GitHub</a>
-          <a href="https://testflight.apple.com/join/BPvQpSk9" className='btn btn-primary' target="_blank">Apple TestFlight</a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG5} alt="" />
-          </div>
-          <h3>PB Scorekeeper - watchOS</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/PBWatchApp" className='btn' target="_blank">GitHub</a>
-          <a href="https://testflight.apple.com/join/zRfRWLCI" className='btn btn-primary' target="_blank">Apple TestFlight</a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-          <img src={MP} alt="" />
-          </div>
-          <h3>Millie Plane - iPadOS</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/MilliePlane" className='btn' target="_blank">GitHub</a>
-          <a href="https://testflight.apple.com/join/6iP84rAD" className='btn btn-primary' target="_blank">Apple TestFlight</a>
-          </div>
-        </article>
 
         <article className="portfolio__item2">
          {/* SPACE HOLDER ARTICLE */}
