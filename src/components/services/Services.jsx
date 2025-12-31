@@ -52,19 +52,26 @@ const Services = () => {
           </ul>
         </article>
 
-        {/* Software Engineering (Supporting Skillset) */}
+        {/* Spacer left */}
+        <article className="service service--spacer" />
+
+        {/* Software Engineering (Centered Supporting Skillset) */}
         <article className="service">
           <div className="service__head">
-            <h3>Software Engineering (iOS)</h3>
+            <h3>Software Engineering</h3>
           </div>
           <ul className="service__list">
+            <ServiceItem text="JavaScript and Python for automation and integrations" />
+            <ServiceItem text="REST APIs, scripting, and system integrations" />
             <ServiceItem text="iOS, iPadOS, macOS, watchOS, and tvOS development" />
             <ServiceItem text="SwiftUI and UIKit application development" />
-            <ServiceItem text="CI/CD with Xcode Cloud" />
-            <ServiceItem text="App Store deployment and TestFlight workflows" />
+            <ServiceItem text="CI/CD with Xcode Cloud and automated workflows" />
             <ServiceItem text="Application lifecycle awareness and production support" />
           </ul>
         </article>
+
+        {/* Spacer right */}
+        <article className="service service--spacer" />
 
       </div>
     </section>
