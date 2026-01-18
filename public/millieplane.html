@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MilliePlane - Collect Millie Bucks!</title>
+    <meta name="description" content="MilliePlane is a fun, retro arcade-style endless flyer game for iPad. Fly through obstacles and collect Millie Bucks!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+
+        .stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: 0;
+        }
+
+        .star {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: white;
+            border-radius: 50%;
+            animation: twinkle 2s ease-in-out infinite;
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+            border-radius: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 2.5rem;
+            color: #ffd700;
+            text-shadow: 4px 4px 0 #ff6b00;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: #00ffff;
+            margin-bottom: 20px;
+        }
+
+        .dedication {
+            font-style: italic;
+            color: #ff9ed2;
+            margin-bottom: 30px;
+        }
+
+        .app-store-badge {
+            display: inline-block;
+            transition: transform 0.2s;
+        }
+
+        .app-store-badge:hover {
+            transform: scale(1.05);
+        }
+
+        .app-store-badge img {
+            height: 50px;
+        }
+
+        .screenshot {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+            margin: 40px auto;
+            display: block;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .feature {
+            background: rgba(255,255,255,0.1);
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .feature h3 {
+            color: #ffd700;
+            margin-bottom: 10px;
+        }
+
+        section {
+            background: rgba(255,255,255,0.05);
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            backdrop-filter: blur(10px);
+        }
+
+        section h2 {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 1rem;
+            color: #ff6b6b;
+            margin-bottom: 20px;
+        }
+
+        section p, section li {
+            line-height: 1.8;
+            color: #ccc;
+        }
+
+        section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        section li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        section li::before {
+            content: ">";
+            position: absolute;
+            left: 0;
+            color: #00ffff;
+            font-family: 'Press Start 2P', monospace;
+            font-size: 0.7rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #666;
+        }
+
+        footer a {
+            color: #00ffff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            .container {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+
+    <div class="container">
+        <header>
+            <img src="https://danpayne.info/mp.png" alt="MilliePlane" class="logo">
+            <h1>MILLIE PLANE</h1>
+            <p class="tagline">Collect Millie Bucks!</p>
+            <p class="dedication">"Dedicated to the best niece ever... Millie Payne"</p>
+
+            <a href="https://testflight.apple.com/join/6iP84rAD" class="app-store-badge">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+            </a>
+        </header>
+
+        <img src="https://danpayne.info/static/media/milliePlane.f03e8a7996f1e07ecd57.png" alt="MilliePlane Gameplay" class="screenshot">
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">&#9992;</div>
+                <h3>Classic Gameplay</h3>
+                <p>Tap to fly, avoid obstacles, collect coins</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">&#127918;</div>
+                <h3>Retro Arcade</h3>
+                <p>1980s-inspired graphics and high scores</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">&#128176;</div>
+                <h3>Millie Bucks</h3>
+                <p>Collect cash to rack up your score</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">&#127942;</div>
+                <h3>Leaderboard</h3>
+                <p>Compete for the top 10 high scores</p>
+            </div>
+        </div>
+
+        <section id="support">
+            <h2>SUPPORT</h2>
+            <p>Having trouble with MilliePlane? We're here to help!</p>
+            <ul>
+                <li>Make sure you're running iPadOS 12.0 or later</li>
+                <li>Try closing and reopening the app</li>
+                <li>Reinstall from the App Store if issues persist</li>
+            </ul>
+            <p style="margin-top: 20px;">For additional support, contact: <a href="mailto:support@danpayne.co">support@danpayne.co</a></p>
+        </section>
+
+        <section id="privacy">
+            <h2>PRIVACY POLICY</h2>
+            <p><strong>Last updated: January 2026</strong></p>
+            <br>
+            <p>MilliePlane is designed with your privacy in mind. Here's what you need to know:</p>
+            <ul>
+                <li><strong>No data collection:</strong> We do not collect, store, or transmit any personal information</li>
+                <li><strong>No analytics:</strong> We do not use any analytics or tracking services</li>
+                <li><strong>No accounts:</strong> No sign-up or login required</li>
+                <li><strong>Local storage only:</strong> High scores are stored locally on your device and are never transmitted</li>
+                <li><strong>No ads:</strong> MilliePlane contains no advertisements</li>
+                <li><strong>No in-app purchases:</strong> The game is completely free with no monetization</li>
+            </ul>
+            <p style="margin-top: 20px;">This app is made for fun, not profit. Your privacy is respected completely.</p>
+        </section>
+
+        <footer>
+            <p>Made with love by Dan Payne</p>
+            <p style="margin-top: 10px;">
+                <a href="https://danpayne.co">danpayne.co</a> |
+                <a href="mailto:support@danpayne.co">Contact</a> |
+                <a href="https://github.com/dpayne5532/MilliePlaneDev">GitHub</a>
+            </p>
+            <p style="margin-top: 20px; font-size: 0.9rem;">&copy; 2026 MilliePlane. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Generate twinkling stars
+        const starsContainer = document.getElementById('stars');
+        for (let i = 0; i < 50; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.style.left = Math.random() * 100 + '%';
+            star.style.top = Math.random() * 100 + '%';
+            star.style.animationDelay = Math.random() * 2 + 's';
+            star.style.animationDuration = (Math.random() * 2 + 1) + 's';
+            starsContainer.appendChild(star);
+        }
+    </script>
+</body>
+</html>
