@@ -17,20 +17,38 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
-            </div>
-
+          </div>
           <h3>Escrow App - iPadOS</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/EscrowApp" className='btn' target="_blank">GitHub</a>
           <a href="https://youtu.be/x8RoHYyOsIk" className='btn btn-primary' target="_blank">Watch a Demo</a>
+          </div>
+        </article>
 
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>Systems Integrations - Azure | Entra | HRIS (Paylocity)</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/dpayne5532/systems-integrations" className='btn' target="_blank">GitHub</a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>This Website - ReactJS</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/dpayne5532/ResumeWebsiteRefreshed" className='btn' target="_blank">GitHub</a>
           </div>
         </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
-            </div>
+          </div>
           <h3>Ship Cap'n Crew - iOS</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/ShipCapnCrew" className='btn' target="_blank">GitHub</a>
@@ -48,33 +66,6 @@ const Portfolio = () => {
           <a href="https://apps.apple.com/us/app/five-dice-tv/id1672794861" className='btn btn-primary' target="_blank">Apple App Store</a>
           </div>
         </article>
-
-
-
-
-
-
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG5} alt="" />
-          </div>
-          <h3>Systems Integrations - Azure</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/systems-integrations" className='btn' target="_blank">GitHub</a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>This Website - ReactJS</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/ResumeWebsiteRefreshed" className='btn' target="_blank">GitHub</a>
-          </div>
-        </article>
-
       </div>
     </section>
   )
