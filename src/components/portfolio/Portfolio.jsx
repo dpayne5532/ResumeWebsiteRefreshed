@@ -55,8 +55,14 @@ const Portfolio = () => {
 
 
 
-        <article className="portfolio__item2">
-         {/* SPACE HOLDER ARTICLE */}
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>Systems Integrations - Azure</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/dpayne5532/systems-integrations" className='btn' target="_blank">GitHub</a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -64,12 +70,9 @@ const Portfolio = () => {
             <img src={IMG4} alt="" />
           </div>
           <h3>This Website - ReactJS</h3>
-          <div className="portfolio__item-cta"></div>
+          <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/ResumeWebsiteRefreshed" className='btn' target="_blank">GitHub</a>
-        </article>
-
-        <article className="portfolio__item2">
-          {/* SPACE HOLDER */}
+          </div>
         </article>
 
       </div>
