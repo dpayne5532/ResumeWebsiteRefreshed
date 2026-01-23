@@ -29,7 +29,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>Systems Integrations - Azure | Entra | HRIS (Paylocity)</h3>
+          <h3>Systems Integrations - Azure | Entra | HRIS | Salesforce</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/systems-integrations" className='btn' target="_blank">GitHub</a>
           </div>
