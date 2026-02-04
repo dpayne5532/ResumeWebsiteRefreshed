@@ -7,6 +7,7 @@ import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio7.png'
 import IMG7 from '../../assets/portfolio8.png'
 import AppIcon1 from '../../assets/milliePlaneIcon.png'
+import IMGLLM from '../../assets/portfolioLLM.png'
 import './portfolio.css'
 
 const Portfolio = () => {
@@ -32,6 +33,17 @@ const Portfolio = () => {
           <h3>Systems Integrations - Azure | Entra | HRIS | CRM</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/systems-integrations" className='btn' target="_blank">GitHub</a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMGLLM} alt="" />
+          </div>
+          <h3>Local LLM Platform - Node.js | Azure | Ollama</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/dpayne5532/localLLM-movie-recs" className='btn' target="_blank">GitHub</a>
+          <a href="https://www.youtube.com/watch?v=9h-7YfVkZEk" className='btn btn-primary' target="_blank">Watch Demo</a>
           </div>
         </article>
 
