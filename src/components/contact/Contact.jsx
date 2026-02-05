@@ -1,8 +1,6 @@
 import React, {useRef} from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
-
 import {FaGithub} from 'react-icons/fa'
 import emailjs from 'emailjs-com'
 
@@ -29,7 +27,7 @@ const Contact = () => {
             <MdOutlineEmail className="contact__option-icon"/>
             <h4>Email</h4>
             <h5>Dan@danpayne.co</h5>
-            <a href="mailto:dan@danpayne.co" target="_blank">Send an email!</a>
+            <a href="mailto:dan@danpayne.co" target="_blank" rel="noreferrer">Send an email!</a>
 
           </article>
 
@@ -37,7 +35,7 @@ const Contact = () => {
             <FaGithub className="contact__option-icon"/>
             <h4>GitHub</h4>
             <h5>dpayne5532</h5>
-            <a href="https://github.com/dpayne5532" target="_blank">Follow me on GitHub</a>
+            <a href="https://github.com/dpayne5532" target="_blank" rel="noreferrer">Follow me on GitHub</a>
 
           </article>
 

@@ -28,6 +28,14 @@ const projects = [
     tech: ['Node.js', 'Azure Functions', 'Microsoft Graph API', 'SolarWinds API'],
   },
   {
+    name: 'Termination Automation',
+    image: imgTermination,
+    description:
+      'Automates offboarding by disabling accounts in seconds, with deny-list protection for critical service accounts and automatic audit trails.',
+    impact: ['Closed security gap where terminated employees kept access for hours'],
+    tech: ['Node.js', 'Azure Functions', 'Microsoft Graph API', 'SolarWinds API'],
+  },
+  {
     name: 'Employee Data Sync',
     image: imgEmployeeSync,
     description:
@@ -50,14 +58,6 @@ const projects = [
       'Polls 6 directories across 3 clients every 5 minutes, sends automatic email alerts when files land.',
     impact: ['Eliminated daily manual SFTP directory checks'],
     tech: ['Node.js', 'Azure Functions', 'SSH2/SFTP', 'Azure Blob Storage', 'Microsoft Graph API'],
-  },
-  {
-    name: 'Termination Automation',
-    image: imgTermination,
-    description:
-      'Automates offboarding by disabling accounts in seconds, with deny-list protection for critical service accounts and automatic audit trails.',
-    impact: ['Closed security gap where terminated employees kept access for hours'],
-    tech: ['Node.js', 'Azure Functions', 'Microsoft Graph API', 'SolarWinds API'],
   },
   {
     name: 'Offshore Employee Database',

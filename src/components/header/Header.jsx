@@ -1,7 +1,6 @@
 import React from 'react'
 import HeaderSocials from './HeaderSocials'
 import './header.css'
-import ME from '../../assets/me6.png'
 
 const Header = () => {
   return (

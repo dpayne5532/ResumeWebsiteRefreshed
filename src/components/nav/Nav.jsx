@@ -24,7 +24,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <a href={isHome ? '#' : '/'} onClick={() => handleNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
+      <a href={isHome ? '/' : '/'} onClick={() => handleNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
       <a href={isHome ? '#about' : '/#about'} onClick={() => handleNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
       <a href={isHome ? '#services' : '/#services'} onClick={() => handleNav('#services')} className={activeNav === '#services' ? 'active' : ''}><AiOutlineBook /></a>
       <a href={isHome ? '#portfolio' : '/#portfolio'} onClick={() => handleNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><RiServiceLine /></a>
