@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { BsArrowLeft } from 'react-icons/bs'
 import imgHrDashboard from '../../assets/si-hr-dashboard.png'
@@ -70,6 +70,10 @@ const projects = [
 ]
 
 const SystemsIntegrations = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <section className="si-page">
       <div className="container si-page__container">
