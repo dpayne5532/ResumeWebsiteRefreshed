@@ -2,7 +2,6 @@ import React from 'react'
 import './footer.css'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
-import {FaTwitterSquare} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -12,7 +11,6 @@ const Footer = () => {
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
         <li><a href="#services">What I Do</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         {/* <li><a href="#testimonials">Testimonials</a></li> */}
@@ -22,7 +20,6 @@ const Footer = () => {
       <div className="footer__socials">
       <a href="https://www.linkedin.com/in/danpayne5532/" target="_blank"> <BsLinkedin/></a>
       <a href="https://github.com/dpayne5532" target="_blank"><FaGithub /></a>
-      <a href="https://twitter.com/DanPayne80" target="_blank"><FaTwitterSquare /></a>
       </div>
 
 

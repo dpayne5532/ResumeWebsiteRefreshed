@@ -2,7 +2,7 @@ import React, {useRef} from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
-import {BsTwitter} from 'react-icons/bs'
+
 import {FaGithub} from 'react-icons/fa'
 import emailjs from 'emailjs-com'
 
@@ -28,8 +28,8 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon"/>
             <h4>Email</h4>
-            <h5>Dan@DanPayne.info</h5>
-            <a href="mailto:dan@danpayne.info" target="_blank">Send an email!</a>
+            <h5>Dan@danpayne.co</h5>
+            <a href="mailto:dan@danpayne.co" target="_blank">Send an email!</a>
 
           </article>
 
@@ -41,13 +41,6 @@ const Contact = () => {
 
           </article>
 
-          <article className="contact__option">
-            <BsTwitter className="contact__option-icon"/>
-            <h4>Twitter</h4>
-            <h5>@DanPayne80</h5>
-            <a href="https://twitter.com/DanPayne80" target="_blank">DM me on Twitter</a>
-
-          </article>
 
         </div>
         <form ref={form} onSubmit={sendEmail}>

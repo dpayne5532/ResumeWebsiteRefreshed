@@ -51,11 +51,11 @@ const About = () => {
           </div>
 
           <p>
-            I am a Lead Systems Administrator with a strong Site Reliability Engineering mindset, focused on building and operating reliable, scalable, and secure Azure platforms. My work centers on designing cloud infrastructure that is observable, automated, and resilient by default, while enabling engineering teams to deploy and iterate safely.
+            I build automation that makes people's jobs easier, and I've got the receipts.
             <br /><br />
-            I hold three Microsoft Azure certifications: AZ-900 (Azure Fundamentals), AZ-104 (Azure Administrator Associate), and AZ-305 (Azure Solutions Architect Expert). I have hands-on experience designing Azure architectures, implementing CI/CD pipelines from the ground up, automating infrastructure using Infrastructure as Code, and leading incident response and operational improvements in production environments.
+            As Lead Systems Administrator, I transformed a largely manual Azure environment into an automated, observable platform. I cut new-hire provisioning from 30+ minutes to under 60 seconds, closed security gaps in employee offboarding, and built a full-stack Salesforce-to-Azure data platform that turned slow API queries into sub-second searches.
             <br /><br />
-            With a Bachelor of Science in Aviation Education, I bring a safety-first, reliability-driven mindset to cloud engineering. I am passionate about reducing operational toil, improving system visibility, and aligning reliability engineering with real business outcomes.
+            I automate with Node.js, PowerShell, and Azure CLI. I deploy with GitHub Actions and Azure DevOps. I secure with Entra ID, Conditional Access, and Zero Trust. And I document everything, because reliable systems start with clear thinking.
           </p>
 
           <a href="#contact" className="btn btn-primary">Send me a Message</a>
