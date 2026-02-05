@@ -15,13 +15,13 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMGLLM} alt="" />
           </div>
-          <h3>Escrow App - iPadOS</h3>
-          <p className="portfolio__item-desc">Native iPad app for managing real estate escrow transactions with document tracking and status workflows.</p>
+          <h3>Local LLM Platform - Node.js | Azure | Ollama</h3>
+          <p className="portfolio__item-desc">On-premises LLM processing platform using Ollama and RAG, keeps sensitive data entirely local with zero cloud exposure.</p>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/EscrowApp" className='btn' target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://youtu.be/x8RoHYyOsIk" className='btn btn-primary' target="_blank" rel="noreferrer">Watch a Demo</a>
+          <a href="https://www.youtube.com/watch?v=9h-7YfVkZEk" className='btn btn-primary' target="_blank" rel="noreferrer">Watch Demo</a>
+          <a href="https://catalystsolutions-my.sharepoint.com/:p:/p/dan_payne/IQBnEG7bUUvbSIXf5lFRNmoZAT69lVaOC3yoS9UoAqfxh6E?rtime=y25WMtFk3kg" className='btn btn-primary' target="_blank" rel="noreferrer">PowerPoint Deck</a>
           </div>
         </article>
 
@@ -39,24 +39,24 @@ const Portfolio = () => {
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMGLLM} alt="" />
-          </div>
-          <h3>Local LLM Platform - Node.js | Azure | Ollama</h3>
-          <p className="portfolio__item-desc">On-premises LLM processing platform using Ollama and RAG, keeps sensitive data entirely local with zero cloud exposure.</p>
-          <div className="portfolio__item-cta">
-          <a href="https://www.youtube.com/watch?v=9h-7YfVkZEk" className='btn btn-primary' target="_blank" rel="noreferrer">Watch Demo</a>
-          <a href="https://catalystsolutions-my.sharepoint.com/:p:/p/dan_payne/IQBnEG7bUUvbSIXf5lFRNmoZAT69lVaOC3yoS9UoAqfxh6E?rtime=y25WMtFk3kg" className='btn btn-primary' target="_blank" rel="noreferrer">PowerPoint Deck</a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>
           <h3>This Website - ReactJS</h3>
           <p className="portfolio__item-desc">This portfolio site, built with React and self-hosted on a Raspberry Pi 5 with a Cloudflare reverse proxy.</p>
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/ResumeWebsiteRefreshed" className='btn' target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG1} alt="" />
+          </div>
+          <h3>Escrow App - iPadOS</h3>
+          <p className="portfolio__item-desc">Native iPad app for managing real estate escrow transactions with document tracking and status workflows.</p>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/dpayne5532/EscrowApp" className='btn' target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://youtu.be/x8RoHYyOsIk" className='btn btn-primary' target="_blank" rel="noreferrer">Watch a Demo</a>
           </div>
         </article>
 

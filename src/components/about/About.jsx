@@ -52,9 +52,18 @@ const About = () => {
 
           <p>
             I build automation that makes people's jobs easier, and I've got the receipts.
-            <br /><br />
-            As Lead Systems Administrator, I transformed a largely manual Azure environment into an automated, observable platform. I cut new-hire provisioning from 30+ minutes to under 60 seconds, closed security gaps in employee offboarding, and built a full-stack Salesforce-to-Azure data platform that turned slow API queries into sub-second searches.
-            <br /><br />
+          </p>
+          <p>
+            As Lead Systems Administrator at Catalyst Solutions, I inherited a largely manual Azure environment and transformed it into an automated, observable platform. Some highlights:
+          </p>
+          <ul className="about__highlights">
+            <li>Cut new-hire provisioning from 30+ minutes of manual steps to under 60 seconds by building an Azure Functions pipeline that creates Entra ID accounts, assigns M365 licenses, sets managers, and opens IT tickets — all from a single HR form submission.</li>
+            <li>Closed a security gap where terminated employees kept access for hours post-offboarding. Built a termination webhook that disables accounts in seconds, with deny-list protection for critical service accounts and automatic audit trails.</li>
+            <li>Eliminated daily manual SFTP directory checks by building a timer-triggered monitoring system that polls six directories across three clients every five minutes and sends automatic email alerts when files land.</li>
+            <li>Built a full-stack Salesforce-to-Azure data platform (React, Express.js, Azure SQL) that let non-sales staff search CRM contacts and addresses without needing a Salesforce license. Incremental sync every five minutes keeps data current, and the company reclaimed expensive full licenses from users who only needed read-only lookups.</li>
+            <li>Designed a proof-of-concept local LLM processing platform using Ollama and RAG that keeps sensitive data entirely on-premises with zero cloud exposure, HIPAA-compatible architecture.</li>
+          </ul>
+          <p>
             I automate with Node.js, PowerShell, and Azure CLI. I deploy with GitHub Actions and Azure DevOps. I secure with Entra ID, Conditional Access, and Zero Trust. And I document everything, because reliable systems start with clear thinking.
           </p>
 
