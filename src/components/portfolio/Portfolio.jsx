@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import IMG1 from '../../assets/portfolio1.png'
 import MP from '../../assets/milliePlane.png'
 import IMG3 from '../../assets/portfolioscc.png'
@@ -35,6 +36,7 @@ const Portfolio = () => {
           <p className="portfolio__item-desc">Automated pipelines connecting Azure, Entra ID, HRIS, and CRM systems, eliminating manual data entry and syncing across platforms.</p>
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/systems-integrations" className='btn' target="_blank">GitHub</a>
+          <Link to="/systems-integrations" className='btn btn-primary'>View Details</Link>
           </div>
         </article>
 

@@ -1,0 +1,128 @@
+.si-page {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.si-page__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.si-page__container > h2 {
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.si-page__intro {
+  text-align: center;
+  color: var(--color-light);
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  font-size: 0.95rem;
+}
+
+.si-page__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.si-card {
+  background: var(--color-bg-variant);
+  padding: 0;
+  border-radius: 1.5rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  overflow: hidden;
+}
+
+.si-card:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+
+.si-card__image {
+  border-radius: 1.5rem 1.5rem 0 0;
+  overflow: hidden;
+}
+
+.si-card__image img {
+  width: 100%;
+  display: block;
+}
+
+.si-card__title {
+  color: var(--color-primary);
+  margin: 1.4rem 1.8rem 0.75rem;
+  font-size: 1.1rem;
+}
+
+.si-card__desc {
+  color: var(--color-light);
+  font-size: 0.88rem;
+  margin: 0 1.8rem 1rem;
+  line-height: 1.6;
+}
+
+.si-card__impact {
+  margin: 0 1.8rem 1rem;
+  padding-left: 0;
+}
+
+.si-card__impact li {
+  color: var(--color-white);
+  font-size: 0.85rem;
+  padding: 0.3rem 0.6rem;
+  background: rgba(137, 196, 255, 0.1);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 0 0.3rem 0.3rem 0;
+  margin-bottom: 0.4rem;
+}
+
+.si-card__tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 1.8rem 1.4rem;
+}
+
+.si-card__tag {
+  display: inline-block;
+  background: rgba(137, 196, 255, 0.15);
+  color: var(--color-primary);
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.3rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+  .si-page__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  .si-page__grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .si-card__title {
+    margin: 1rem 1.2rem 0.6rem;
+  }
+
+  .si-card__desc,
+  .si-card__impact,
+  .si-card__tech {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+  }
+}
