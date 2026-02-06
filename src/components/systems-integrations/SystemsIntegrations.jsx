@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { BsArrowLeft } from 'react-icons/bs'
 import imgHrDashboard from '../../assets/si-hr-dashboard.png'
@@ -70,9 +70,25 @@ const projects = [
 ]
 
 const SystemsIntegrations = () => {
+  const [expandedImage, setExpandedImage] = useState(null)
+
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+
+  useEffect(() => {
+    const handleEsc = (e) => {
+      if (e.key === 'Escape') setExpandedImage(null)
+    }
+    if (expandedImage) {
+      document.addEventListener('keydown', handleEsc)
+      document.body.style.overflow = 'hidden'
+    }
+    return () => {
+      document.removeEventListener('keydown', handleEsc)
+      document.body.style.overflow = ''
+    }
+  }, [expandedImage])
 
   return (
     <section className="si-page">
@@ -89,7 +105,7 @@ const SystemsIntegrations = () => {
         <div className="si-page__grid">
           {projects.map((project) => (
             <article key={project.name} className="si-card">
-              <div className="si-card__image">
+              <div className="si-card__image" onClick={() => setExpandedImage(project)}>
                 <img src={project.image} alt={project.name} />
               </div>
               <h3 className="si-card__title">{project.name}</h3>
@@ -112,6 +128,16 @@ const SystemsIntegrations = () => {
           ))}
         </div>
       </div>
+
+      {expandedImage && (
+        <div className="si-lightbox" onClick={() => setExpandedImage(null)}>
+          <div className="si-lightbox__content" onClick={(e) => e.stopPropagation()}>
+            <img src={expandedImage.image} alt={expandedImage.name} />
+            <p className="si-lightbox__caption">{expandedImage.name}</p>
+            <button className="si-lightbox__close" onClick={() => setExpandedImage(null)}>&times;</button>
+          </div>
+        </div>
+      )}
     </section>
   )
 }
