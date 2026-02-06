@@ -6,7 +6,6 @@ import IMG4 from '../../assets/portfolioWeb.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG7 from '../../assets/portfolio8.png'
 import IMGLLM from '../../assets/portfolioLLM.png'
-import IMGTeamsBot from '../../assets/portfolioTeamsBot.png'
 import './portfolio.css'
 
 const Portfolio = () => {
@@ -46,17 +45,6 @@ const Portfolio = () => {
           <p className="portfolio__item-desc">This portfolio site, built with React and self-hosted on a Raspberry Pi 5 with a Cloudflare reverse proxy.</p>
           <div className="portfolio__item-cta">
           <a href="https://github.com/dpayne5532/ResumeWebsiteRefreshed" className='btn' target="_blank" rel="noreferrer">GitHub</a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMGTeamsBot} alt="" />
-          </div>
-          <h3>Teams Service Desk Agent - Claude | Node.js | Azure</h3>
-          <p className="portfolio__item-desc">AI-powered IT Service Desk assistant for Microsoft Teams. Uses Claude for natural language understanding and SolarWinds for ticket management.</p>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/dpayne5532/teams-service-desk-agent" className='btn' target="_blank" rel="noreferrer">GitHub</a>
           </div>
         </article>
 

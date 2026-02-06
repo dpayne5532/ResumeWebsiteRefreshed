@@ -8,6 +8,7 @@ import imgSalesforce from '../../assets/si-salesforce.png'
 import imgSftpMonitor from '../../assets/si-sftp-monitor.png'
 import imgTermination from '../../assets/si-termination.png'
 import imgOffshoreDb from '../../assets/si-offshore-db.png'
+import imgTeamsBot from '../../assets/si-teams-bot.png'
 import './systems-integrations.css'
 
 const projects = [
@@ -66,6 +67,14 @@ const projects = [
       'Full-stack web app for tracking offshore employees with CRUD operations, skills tracking, project allocations, and departmental assignments.',
     impact: [],
     tech: ['React', 'Vite', 'Express.js', 'Azure Static Web Apps', 'Azure App Service', 'Azure SQL', 'Entra ID'],
+  },
+  {
+    name: 'Teams Service Desk Agent',
+    image: imgTeamsBot,
+    description:
+      'AI-powered IT Service Desk assistant for Microsoft Teams. Uses Claude for natural language understanding and SolarWinds Service Desk for ticket management. Deployed to Azure App Service with CI/CD via GitHub Actions.',
+    impact: ['Create, update, and track IT tickets without leaving Teams'],
+    tech: ['Node.js', 'Claude API', 'Azure Bot Service', 'SolarWinds API', 'Adaptive Cards', 'GitHub Actions'],
   },
 ]
 
