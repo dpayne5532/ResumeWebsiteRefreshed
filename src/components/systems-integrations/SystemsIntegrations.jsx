@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { BsArrowLeft } from 'react-icons/bs'
 import imgHrDashboard from '../../assets/si-hr-dashboard.png'
 import imgOnboarding from '../../assets/si-onboarding.png'
+import imgOnboardingCentral from '../../assets/si-onboarding-central.png'
 import imgEmployeeSync from '../../assets/si-employee-sync.png'
 import imgSalesforce from '../../assets/si-salesforce.png'
 import imgSftpMonitor from '../../assets/si-sftp-monitor.png'
@@ -19,6 +20,14 @@ const projects = [
       'Single-page web app for HR teams to process onboarding and termination workflows. Built as an Azure Static Web App with Entra ID authentication, providing a centralized interface for employee lifecycle management.',
     impact: [],
     tech: ['HTML/CSS/JS', 'Azure Static Web Apps', 'Azure Functions', 'Entra ID'],
+  },
+  {
+    name: 'Onboarding Central',
+    image: imgOnboardingCentral,
+    description:
+      'Internal new hire management platform with per-team onboarding checklists, automated status tracking, and cross-department coordination across 7 teams. Features configurable checklist templates, client management workflows, automatic welcome document delivery, and a full audit trail.',
+    impact: ['Centralized onboarding visibility across People + Culture, Delivery, IT, Accounting, SAM, Leadership, and Procurement'],
+    tech: ['Next.js', 'Prisma', 'Azure SQL', 'App Insights', 'Entra ID', 'Graph API', 'Azure App Service', 'GitHub Actions'],
   },
   {
     name: 'Onboarding Automation',
