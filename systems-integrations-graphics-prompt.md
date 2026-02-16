@@ -1,7 +1,7 @@
 # Systems Integrations - Card Graphics Request
 
 ## Context
-I have a portfolio website with a detail page showcasing 7 systems integration projects. Right now the cards are text-only and look flat. I need a header graphic/illustration for each card to make the page more visually engaging.
+I have a portfolio website with a detail page showcasing 7 systems integration projects. Right now the cards are text-only and look flat. I need a header graphic/illustration for each card to make the page more visually engaging. 
 
 ## Site Design System
 - **Background:** Deep navy blue (`#001e3b`)
