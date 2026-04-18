@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-       <h1>Dan Payne</h1>
-       <h3 className="text-light">Azure Infrastructure Engineer | Site Reliability | DevOps & Automation</h3>
+        <h1>Dan Payne</h1>
+        <h3 className="text-light">DevOps Engineer | Azure Solutions Architect Expert | Cloud & Automation</h3>
         <HeaderSocials />
 
 

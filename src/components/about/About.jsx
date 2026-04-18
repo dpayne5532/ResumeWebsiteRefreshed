@@ -54,7 +54,7 @@ const About = () => {
             I build automation that makes people's jobs easier, and I've got the receipts.
           </p>
           <p>
-            As Lead Systems Administrator at Catalyst Solutions, I inherited a largely manual Azure environment and transformed it into an automated, observable platform. Some highlights:
+            Recently promoted to DevOps Engineer at Catalyst Solutions after transforming a largely manual Azure environment into an automated, observable platform. Some highlights:
           </p>
           <ul className="about__highlights">
             <li>Cut new-hire provisioning from 30+ minutes of manual steps to under 60 seconds by building an Azure Functions pipeline that creates Entra ID accounts, assigns M365 licenses, sets managers, and opens IT tickets — all from a single HR form submission.</li>
