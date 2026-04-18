@@ -1,11 +1,13 @@
-
-
 .header__container {
   text-align: center;
   height: 100%;
   position: relative;
 }
 
+header {
+  padding-top: 3rem;
+  overflow: hidden;
+}
 
 /* ======= CTA ========  */
 
@@ -55,10 +57,7 @@
 
 
 /* ===== Medium Devices ===== */
-@media screen and (max-width: 1024px) {
-
-
-}
+@media screen and (max-width: 1024px) {}
 
 
 /* ===== Small Devices ===== */
