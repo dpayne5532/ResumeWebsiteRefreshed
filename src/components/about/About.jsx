@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/me-about2.png';
+import ME from '../../assets/me-about3.png';
 import AZURE_BADGE from '../../assets/900badge.png';
 import AZURE_BADGEB from '../../assets/104badge.png';
 import AZURE_BADGEC from '../../assets/305badge.png';
