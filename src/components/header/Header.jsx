@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <h1>Dan Payne</h1>
-        <h3 className="text-light">DevOps Engineer | Azure Solutions Architect Expert | Cloud & Automation</h3>
+        <h3 className="text-light">DevSecOps Engineer | Azure Solutions Architect Expert | Cloud & Automation</h3>
         <HeaderSocials />
 
 
