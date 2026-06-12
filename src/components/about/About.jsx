@@ -57,7 +57,7 @@ const About = () => {
             After almost four years at Catalyst Solutions, where I led DevOps from the ground up, I've moved on to a Lead DevSecOps role in the defense industry. Some highlights from my Catalyst work:
           </p>
           <ul className="about__highlights">
-            <li>Cut new-hire provisioning from 30+ minutes of manual steps to under 60 seconds by building an Azure Functions pipeline that creates Entra ID accounts, assigns M365 licenses, sets managers, and opens IT tickets — all from a single HR form submission.</li>
+            <li>Cut new-hire provisioning from 30+ minutes of manual steps to under 60 seconds by building an Azure Functions pipeline that creates Entra ID accounts, assigns M365 licenses, sets managers, and opens IT tickets, all from a single HR form submission.</li>
             <li>Closed a security gap where terminated employees kept access for hours post-offboarding. Built a termination webhook that disables accounts in seconds, with deny-list protection for critical service accounts and automatic audit trails.</li>
             <li>Eliminated daily manual SFTP directory checks by building a timer-triggered monitoring system that polls six directories across three clients every five minutes and sends automatic email alerts when files land.</li>
             <li>Built a full-stack Salesforce-to-Azure data platform (React, Express.js, Azure SQL) that let non-sales staff search CRM contacts and addresses without needing a Salesforce license. Incremental sync every five minutes keeps data current, and the company reclaimed expensive full licenses from users who only needed read-only lookups.</li>
